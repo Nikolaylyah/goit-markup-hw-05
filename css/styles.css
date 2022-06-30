@@ -82,8 +82,8 @@ ul, li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .navigation-list {
     display: flex;
     list-style: none;
@@ -93,7 +93,6 @@ ul, li {
 }
 .navigation-link:hover, .navigation-link:focus {
     color: var(--button-hero);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts {
     display: flex;
@@ -113,6 +112,7 @@ ul, li {
     letter-spacing: 0.02em;
     padding: 32px 0;
     fill: currentColor;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-list:not(:last-child) {
     margin-right: 50px;
@@ -123,7 +123,6 @@ ul, li {
 .contacts-links:hover, .contacts-links:focus {
     color: var(--button-hero);
     fill: var(--button-hero);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Hero*/
@@ -172,10 +171,10 @@ ul, li {
     letter-spacing: 0.06em;
     font-family: 'Roboto';
     font-style: normal;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover {
     background: var(--button-hover);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop {
     position: fixed;
@@ -376,11 +375,11 @@ ul, li {
     width: 44px;
     border-radius: 50%;
     fill: var(--icon-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover, .icon-link:focus {
     background: var(--button-hero);
     fill: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* clients */
 .clients {
@@ -399,11 +398,11 @@ ul, li {
     width: 170px;
     height: 92px;
     align-items: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover, .clients-link:focus {
     fill: var(--button-hero);
     border-color: var(--button-hero);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-title:not(:last-child) {
     margin-right: 30px;
@@ -439,12 +438,12 @@ ul, li {
     font-family: 'Roboto';
     font-style: normal;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-btn:hover, .filters-btn:focus {
     background: var(--button-hero);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-list {
     display: flex;
@@ -561,6 +560,7 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-white {
     text-decoration: none;
@@ -573,7 +573,6 @@ footer {
 }
 .footer-link:hover, .footer-link:focus{
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-list {
     list-style: none;
@@ -584,7 +583,6 @@ footer {
 }
 .footer-icon-link:hover, .footer-icon-link:focus {
     background: var(--button-hero);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-all {
     display: flex;
@@ -610,4 +608,5 @@ footer {
     width: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
